@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image:url("https://th.bing.com/th?q=Website+Background+Animation+Images&w=120&h=120&c=1&rs=1&qlt=90&r=0&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247");
+    background-size: cover;
+}
+
+nav {
+    background:lightskyblue;
+    color:black;
+    padding: 10px;  
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+    display: inline;
+    color:darkorchid;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #e1921d;
+}
+
+.container {
+
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    }
+
+h1{
+  color:red;
+  text-align: center;
+text-decoration: underline;
+background-color:white;
+}
+h2 {
+    place-items: center;
+    color: crimson;
+
+}
+h4 {
+    text-align: center;
+    color: brown;
+    
+
+}
+.container ul li{
+    color:yellowgreen;
+    font-weight:bold;
+}
+ img {
+    max-width: 100%;
+    border-radius: 5px;
+    width: 300px;   
+        height: 300px;
+     }
+img-container img{
+    margin: auto;
+    display: block;
+  height: auto;
+  margin-right: 50%;    
+}
+
+ 
+/* Make whole page a flex container to center content */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Keep header on top */
+    min-height: 100vh;
+}
+
+/* Container for the main section */
+.container {
+    flex: 1; /* Takes up remaining height */
+    display: flex;
+    justify-content: center; /* Horizontal center */
+    align-items: center;     /* Vertical center */
+    flex-direction: column;  /* Stack heading and form vertically */
+}
+
+
+/* Contact form box */
+.contact-container {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    color: white;
+}
+h3{
+    color:antiquewhite;
+}
+
+/* Form labels */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Input fields and textarea */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(40, 193, 40);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Button */
+button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+.about p{
+    text-align:justify;
+    color:yellowgreen;  
+ }
+ h4{
+    text-align:justify;
+    color: white;
+ }
+button:hover {
+    background: hsl(119, 49%, 67%);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:lightskyblue;
+    height: 100px;
+     text-color: #fff;
+}
+p{
+    color: #fff;
+}
+h3{
+    text-align: left;
+}
